@@ -1,5 +1,5 @@
-NEU ID: 02832100 
-Name: JAINIL SUBHASHBHAI MALAVIYA
+NEU ID: 02832100 \
+Name: JAINIL SUBHASHBHAI MALAVIYA \
 Email: Malaviya.j@northeastern.edu
 Github UserName: https://github.com/jenil2111
 Repository Link: https://github.com/neu-info7500-spring-04/bitcoin_blockdetails
