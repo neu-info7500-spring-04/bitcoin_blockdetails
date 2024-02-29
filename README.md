@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+NEU ID: 02832100 
+Name: JAINIL SUBHASHBHAI MALAVIYA
+Email: Malaviya.j@northeastern.edu
+Github UserName: https://github.com/jenil2111
+Repository Link: https://github.com/neu-info7500-spring-04/bitcoin_blockdetails
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##Project Description
+This project displays the information about the block. It shows Details of the block which includes amount transacted, fee, date and time of the Transaction, size, version, weight, Index, size, Height, lock time and Output. This project is made using React/Typescript for frontend part and Node.js/Express for the Backend Part. Initially, on starting the project, a list in tabular form will be displayed which shows details of Hash, amount transacted and date and time of the transaction, on clicking on any row, the details of that block will be displayed.
 
-## Available Scripts
+##Technologies Used
+For building the front-end part, React/Typescript is used and for the backend part node.js/Typescript is used. 
+API:  https://graphql.bitquery.io/
+The GraphQL API offered by Bitquery is a comprehensive tool for accessing blockchain data. It provides developers and researchers with extensive information about cryptocurrencies, including:
+Transactions: Details about individual transactions, such as sender, receiver, amount, timestamp, and transaction hash.
+Blocks: Information about blocks on the blockchain, including block height, timestamp, hash, and number of transactions.
 
-In the project directory, you can run:
+##Installation
+Clone the repository from GitHub.
+Navigate to the project directory
+Then, Install the dependencies for both frontend and backend using npm or yarn.
+Start the backend server by running npm start or yarn start.
+Start the frontend server by running npm start or yarn start.
+After starting the server and client navigate to http://localhost:3000 in your web browser to view the application.
 
-### `npm start`
+##Screenshot link
+https://drive.google.com/drive/folders/1yux_sXZZapxSC0xWbYYvOQksRhTaUlL9?usp=sharing
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+##Project File Structure
+•	public/: This directory contains static assets that will be served directly by the web server. It typically includes an index.html file as the entry point for the React application. Other assets like images, fonts, or manifest files can also be placed here.
+•	src/: This directory contains all the source code for the React application.
+•	assets/: This directory contains static assets used in the application such as images, stylesheets, fonts, etc.
+•	components/: This directory contains reusable UI components of the application. Each component usually has its own folder containing its JavaScript file, CSS (or other styling) file, and any other related files.
+•	pages/: This directory contains top-level components that represent different pages of the application. Each page may consist of multiple smaller components and is typically associated with a route.
+•	services/: This directory contains utility functions or modules for handling services like API calls, authentication, or any other backend interactions.
+•	utils/: This directory contains utility functions or modules that are used across the application.
+•	App.js: This file serves as the main component of the application, containing the routing logic and the overall structure of the app.
+•	index.js: This file is the entry point of the application, where the React application is initialized and rendered into the HTML DOM.
+•	Other Files: 
+  o	.gitignore: This file specifies intentionally untracked files to ignore by Git. 
+  o	package.json: This file contains metadata about the project and the list of dependencies required by the project
+  o	README.md: This file typically contains information about the project, instructions for installation, usage, etc.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
