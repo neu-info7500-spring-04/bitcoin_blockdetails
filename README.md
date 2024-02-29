@@ -4,17 +4,17 @@ Email: Malaviya.j@northeastern.edu
 Github UserName: https://github.com/jenil2111
 Repository Link: https://github.com/neu-info7500-spring-04/bitcoin_blockdetails
 
-##Project Description
+## Project Description
 This project displays the information about the block. It shows Details of the block which includes amount transacted, fee, date and time of the Transaction, size, version, weight, Index, size, Height, lock time and Output. This project is made using React/Typescript for frontend part and Node.js/Express for the Backend Part. Initially, on starting the project, a list in tabular form will be displayed which shows details of Hash, amount transacted and date and time of the transaction, on clicking on any row, the details of that block will be displayed.
 
-##Technologies Used
+## Technologies Used
 For building the front-end part, React/Typescript is used and for the backend part node.js/Typescript is used. 
 API:  https://graphql.bitquery.io/
 The GraphQL API offered by Bitquery is a comprehensive tool for accessing blockchain data. It provides developers and researchers with extensive information about cryptocurrencies, including:
 Transactions: Details about individual transactions, such as sender, receiver, amount, timestamp, and transaction hash.
 Blocks: Information about blocks on the blockchain, including block height, timestamp, hash, and number of transactions.
 
-##Installation
+## Installation
 Clone the repository from GitHub.
 Navigate to the project directory
 Then, Install the dependencies for both frontend and backend using npm or yarn.
@@ -22,11 +22,11 @@ Start the backend server by running npm start or yarn start.
 Start the frontend server by running npm start or yarn start.
 After starting the server and client navigate to http://localhost:3000 in your web browser to view the application.
 
-##Screenshot link
+## Screenshot link
 https://drive.google.com/drive/folders/1yux_sXZZapxSC0xWbYYvOQksRhTaUlL9?usp=sharing
 
 
-##Project File Structure
+## Project File Structure
 •	public/: This directory contains static assets that will be served directly by the web server. It typically includes an index.html file as the entry point for the React application. Other assets like images, fonts, or manifest files can also be placed here.
 •	src/: This directory contains all the source code for the React application.
 •	assets/: This directory contains static assets used in the application such as images, stylesheets, fonts, etc.
